@@ -20,7 +20,9 @@
         var n1 = Number(window.prompt('Digite um número: '));
         var n2 = Number(window.prompt('Digite o segundo número: '));
         var resultado = n1 + n2
-        window.alert('A soma do ' + n1 + ' + ' + n2 + ' é igual a: ' + resultado);
+        window.alert('A soma do ' + n1 + ' + ' + n2 + ' é igual a: ' + resultado); 
+        //o resultado da soma é 30, pois o prompt retorna uma string, e a soma de string é a concatenação, ou seja, 10 + 20 = 1020. 
+        // Para corrigir isso, precisamos converter as strings em números usando a função Number().
     </script>
     
 </body>
